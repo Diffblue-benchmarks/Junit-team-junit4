@@ -13,9 +13,6 @@ phases:
     string-max-length: 300
     string-printable: true
     unwind: 1
-    java-external-code-action: mock-non-jdk
-    java-test-input-factory: bmc
-    java-test-input-factory-entry-point : [ '<init>', 'set[A-Z]\w*' ]
 -
   timeout: 300
   cbmcArguments:
@@ -28,9 +25,6 @@ phases:
     string-max-length: 400
     string-printable: false
     unwind: 2
-    java-external-code-action: mock-non-jdk
-    java-test-input-factory: bmc
-    java-test-input-factory-entry-point : [ '<init>', 'set[A-Z]\w*' ]
 -
   timeout: 300
   cbmcArguments:
@@ -43,6 +37,3 @@ phases:
     string-max-length: 400
     string-printable: false
     unwind: 4
-    java-external-code-action: mock-non-jdk
-    java-test-input-factory: bmc
-    java-test-input-factory-entry-point : [ '<init>', 'set[A-Z]\w*' ]
